@@ -58,7 +58,7 @@ a {
 
 /* start search section  */
 .hero {
-  background-image: url(../imgs/banner.png);
+  background-image: url(./imgs/banner.png);
   background-size: cover;
   min-height: 350px;
   padding: 70px 0px;
