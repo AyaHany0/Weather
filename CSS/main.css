@@ -1,0 +1,169 @@
+/*start global style */
+.bg-navy-blue {
+  background-color: #1e202b;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #1e202b;
+  color: #bfc1c8;
+}
+
+.w-85 {
+  width: 85%;
+}
+a {
+  text-decoration: none;
+}
+/*end global style */
+
+/* start navbar  */
+.navbar {
+  padding: 50px 0;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.description {
+  font-size: 10px;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+.current-item {
+  border-radius: 30px;
+  border: 2px solid #009ad8;
+  color: #009ad8;
+  padding: 5px 10px;
+}
+.nav-link {
+  color: white;
+  padding: 5px 25px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border: 2px solid #009ad8;
+  color: #009ad8;
+  padding: 5px 25px;
+}
+
+/* end navbar  */
+
+/* start search section  */
+.hero {
+  background-image: url(../imgs/banner.png);
+  background-size: cover;
+  min-height: 350px;
+  padding: 70px 0px;
+}
+
+.find-location {
+  margin-bottom: 70px;
+}
+
+.find-location input[type="text"] {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+}
+
+form input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.find-btn {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  padding: 0 40px;
+}
+
+/* end search section  */
+
+/* start forecast section  */
+.forecast-row {
+  background: #323544;
+  border-radius: 10px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+
+.row > * {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row .forecast-header {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.row .forecast .forecast-content {
+  overflow: hidden;
+  padding: 50px 20px 10px;
+}
+
+.row .forecast .forecast-content .forecast-degree .num {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.row .forecast .forecast-content .forecast-degree .forecast-icon img {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.castum {
+  margin: 20px 0px;
+}
+
+.forecast:nth-child(even) {
+  background-color: #262936;
+}
+
+/* end forecast section  */
+
+/* start footer  */
+.site-footer {
+  background: #262936;
+  padding: 50px 0;
+}
+.subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+}
+
+.Subscribtion-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  padding: 10px 20px;
+}
+.social .circle {
+  margin-right: 10px;
+  padding: 20px 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* end footer  */
